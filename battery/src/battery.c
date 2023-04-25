@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#define MAX_BATTERY_LEVEL 100
-#define MIN_BATTERY_LEVEL 0
-#define CHARGE_RATE 10
-#define DISCHARGE_RATE 5
-#define MAX_TEMPERATURE 40
+#define MAX_BATTERY_LEVEL 90
+#define MIN_BATTERY_LEVEL 10
+#define CHARGE_RATE 8
+#define DISCHARGE_RATE 4
+#define MAX_TEMPERATURE 45
 
 int batteryLevel = 50;
 bool isCharging = false;
